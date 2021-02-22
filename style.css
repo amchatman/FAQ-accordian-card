@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  min-height:100%;
+}
+body{
+  background:linear-gradient(#AC68E9,#5F65D9);
+  font-family:Kumbh Sans;
+}
+.content-container{
+  background-color:#F2F2F2;
+}
+img{
+  float:left;
+}
