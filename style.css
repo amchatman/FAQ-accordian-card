@@ -11,7 +11,26 @@ body{
 }
 .content-container{
   background-color:#F2F2F2;
+  border-radius:20px;
+  margin:90px auto;
+  height:500px;
+  width:900px;
 }
-img{
-  float:left;
+.text-container h1{
+  padding:20px;
+}
+.question,.anwser{
+  font-size:14px;
+  margin:10px;
+  width:350px;
+}
+.question{
+  color:#4A4B5E;
+}
+.anwser{
+  color:#787878;
+}
+hr{
+  border-top:1px solid #E7E7E9;
+  width:350px;
 }
