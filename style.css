@@ -11,10 +11,18 @@ body{
 }
 .content-container{
   background-color:#F2F2F2;
+  background-image:url("images/bg-pattern-desktop.svg");
+  background-repeat:no-repeat;
+  background-position:top -250px left -450px;
+  background-size:800px 800px;
   border-radius:20px;
   margin:90px auto;
   height:500px;
   width:900px;
+}
+.text-container{
+  float:right;
+  padding-right:60px;
 }
 .text-container h1{
   padding:20px;
@@ -33,4 +41,7 @@ body{
 hr{
   border-top:1px solid #E7E7E9;
   width:350px;
+}
+.arrow-down{
+  float:right;
 }
