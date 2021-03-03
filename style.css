@@ -67,3 +67,6 @@ hr{
 .arrow-down{
   float:right;
 }
+.show{
+  display:block;
+}
