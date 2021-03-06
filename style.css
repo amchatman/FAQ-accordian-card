@@ -66,7 +66,56 @@ hr{
 }
 .arrow-down{
   float:right;
+  cursor:pointer;
+}
+.arrow-up{
+  display:none;
+  float:right;
+  transform:rotate(180deg);
 }
 .show{
   display:block;
+}
+.attribution{
+  font-size:10px;
+  margin:0 auto;
+  text-align:center;
+}
+
+@media screen and (max-width:850px){
+  .content-container{
+    background-image:url("images/bg-pattern-desktop.svg");
+    background-repeat:no-repeat;
+    background-position:top -110px left 30px;
+    background-size:250px 250px;
+    height:530px;
+    width:320px;
+  }
+  .image-container{
+    background-image:url("images/illustration-woman-online-mobile.svg");
+    background-position:bottom 0 left 0;
+    float:none;
+    position:absolute;
+    top:-40px;
+    height:240px;
+    width:280px;
+  }
+  .box-image{
+    background-image:url("none");
+  }
+  .text-container{
+    float:none;
+    padding-right:0;
+    position:relative;
+    top:100px;
+  }
+  .text-container h1{
+    text-align:center;
+  }
+  .question,.anwser{
+    width:300px;
+  }
+  hr{
+    width:300px;
+  }
 }
