@@ -73,7 +73,7 @@ hr{
   float:right;
   transform:rotate(180deg);
 }
-.show{
+.hide{
   display:block;
 }
 .attribution{
