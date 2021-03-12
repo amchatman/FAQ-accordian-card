@@ -104,6 +104,9 @@ hr{
     height:240px;
     width:280px;
   }
+  .image-container img,.box-image img{
+    display:none;
+  }
   .box-image{
     background-image:url("none");
   }
